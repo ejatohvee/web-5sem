@@ -1,16 +1,16 @@
 .page {
     color: #EAC99E;
-    font-size: 36px;
+    font-size: 18px;
     font-family: Overpass, serif;
-    padding: 2em;
-    margin: 0 50px 120px;
+    padding: 1em;
+    margin: 0 1em 120px;
 
     background: linear-gradient(to bottom, #222625, #3F4239, #B29D80);
 }
 
 h1 {
     font-family: Overpass, serif;
-    font-size: 7rem;
+    font-size: 6rem;
     color: #FF0000;
-    margin: 0.5em;
+    margin: 0.2em;
 }
