@@ -1,0 +1,18 @@
+.timetable__row {
+    display: contents;
+}
+
+.timetable__row div {
+    display: flex;
+    padding: 0.5em;
+    background-color: #222625;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.timetable__row:nth-child(odd) div {
+    background-color: #eaeaea;
+    color: #222625;
+}

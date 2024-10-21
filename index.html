@@ -5,27 +5,48 @@
   <meta name="keywords" content="ИТМО, YZY CLUB, Сайт клуба">
   <meta name="description" content="Сайт клуба фанатов KANYE WEST в ИТМО">
   <title>Kanye club website</title>
-  <link href="outlines.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link href="page/page.css" rel="stylesheet">
+  <link href="main/main.css" rel="stylesheet">
+  <link href="header/header.css" rel="stylesheet">
+  <link href="header/__group/header__group.css" rel="stylesheet">
+  <link href="logo/logo.css" rel="stylesheet">
+  <link href="news/news.css" rel="stylesheet">
+  <link href="about/__content/about__content.css" rel="stylesheet">
+  <link href="about/about.css" rel="stylesheet">
+  <link href="gallery/gallery.css" rel="stylesheet">
+  <link href="footer/footer.css" rel="stylesheet">
+  <link href="menu/menu.css" rel="stylesheet">
+  <link href="timetable/timetable.css" rel="stylesheet">
+  <link href="timetable/__header/timetable__header.css" rel="stylesheet">
+  <link href="timetable/__row/timetable__row.css" rel="stylesheet">
+  <link href="events-timetable/events-timetable.css" rel="stylesheet">
+
 </head>
-<body>
-  <header>
-    <div class="logo-title-div">
-      <img class="site-logo" src="images/site_logo.png" alt="No picture found">
+<body class="page">
+  <header class="header">
+      <div class="logo logo--header">
+        <img src="images/site_logo.jpg" alt="No picture found">
+      </div>
+    <div class="header__group">
       <h1>YZY CLUB</h1>
-    </div>
-    <nav>
+      <nav class="menu">
       <a>Главная страница</a>
       <a>Новости</a>
       <a>Галерея</a>
-    </nav>
+      </nav>
+    </div>
   </header>
-  <main>
-    <div class="left-section">
-      <section class="about-section">
+  <main class="main">
+    <div class="about">
+      <section class="about__content">
         <h2>О клубе</h2>
         <p>Клуб фанатов KANYE WEST в ИТМО объединяет всех поклонников его творчества. Мы верим, что музыка Kanye вдохновляет на смелые эксперименты и нестандартные решения как в жизни, так и в учебе.</p>
         <p>Мы проводим <b>встречи клуба</b>, где обсуждаем альбомы Kanye, их основные идеи и незамеченные при поверхностном прослушивании смыслы.</p>
-        <p></p>
 
         <article>
           <h3>О Канье:</h3>
@@ -41,29 +62,36 @@
           <p>Канье Уэст известен не только своими творческими успехами, но и яркими высказываниями, которые часто становятся темой обсуждения в медиа. Его уверенность в себе и стремление к самовыражению вдохновляют миллионы людей по всему миру.</p>
         </article>
       </section>
-      <section class="gallery-section">
+      <section class="gallery">
         <h2>Фотогалерея</h2>
-        <pre>
-        ⠀⠀⢀⣠⣶⣶⣒⣢⡀⠀⠀⠀⢀⣀⣠⠤⢤⠤⣤⣀⡀⠀⠀⠀⢀⢴⣲⣖⡢⢄⠀⠀⠀
-        ⠀⢠⣾⡟⠁⠀⠀⠙⢿⢦⣖⣼⡳⣟⢿⡻⣝⢿⡹⣟⢦⣽⡆⢴⣷⠋⠀⠀⠙⢦⣳⡄⠀
-        ⠀⢽⢿⠀⠀⠀⠀⣠⣼⢿⣹⢲⡽⣚⡧⣟⢮⣏⢷⡭⢷⣎⢿⣻⢧⣀⠀⠀⠀⢈⣏⡷⠀
-        ⠀⠈⢻⣳⡤⣤⣾⣏⢷⣫⢞⣧⢻⡵⣻⢼⡳⣞⡽⣚⡷⢮⢷⣹⣎⢿⣷⣄⣤⣺⠟⠁⠀
-        ⠀⠀⠀⣰⣻⡿⣵⣺⠧⠿⣾⣜⣳⢽⣣⢯⣳⡝⣾⡹⣞⣽⡮⠷⢮⣟⣬⡷⣿⡅⠀⠀⠀
-        ⠀⠀⢠⣿⢯⣳⠟⢁⣴⣶⣮⢿⡝⣮⡳⣏⣶⣛⢶⡻⣼⢋⣒⣦⣄⠘⢷⡽⣺⡝⡄⠀⠀
-        ⠀⣰⢣⣏⣯⠏⢀⡎⠀⣿⣿⡆⣿⢧⡻⡵⢮⣝⢾⣹⡏⢸⡿⣿⣿⣃⠈⢷⣷⣻⡽⡄⠀
-        ⢠⣿⣟⣾⡏⠀⣾⣄⣼⣿⣽⠀⣿⢧⡻⣝⢯⡞⣧⢿⡇⠘⣿⡟⢿⣿⡆⠈⣷⣹⢿⣧⠀
-        ⣸⣿⣏⣿⠃⠀⣿⣿⠟⣿⠏⢠⣿⡞⣧⢟⡼⣳⡝⡾⣷⠀⢻⣧⣸⢿⡇⠀⢹⣟⠾⣿⡆
-        ⡿⣷⣏⣿⡇⠀⠹⡿⠶⠃⢀⣾⢳⡻⣼⣯⣗⣧⣟⡵⣻⣆⠀⠙⠿⠼⠃⠀⣼⣟⡻⡯⡇
-        ⡧⣷⡞⣽⢻⣦⣄⣀⣀⣠⣾⡯⠗⠉⣵⣾⣿⣿⡍⠙⠷⣯⢧⣄⣀⣀⣠⢾⡟⣼⢳⢿⡇
-        ⣷⣿⡝⣮⢷⡹⣎⠿⣽⡿⠋⠀⠀⠀⠉⠛⠛⠛⠁⠀⠀⠈⠻⣭⢿⡹⣏⠿⣜⢯⣻⣾⡇
-        ⠸⣽⣹⣎⢷⣫⡝⣯⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣯⡗⣯⢻⡝⡾⣽⡟⠃
-        ⠀⠸⠽⣮⣳⣣⢟⣾⡅⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡿⡜⣧⡿⡽⠏⠀⠀
-        ⠀⠀⠀⠙⠣⣟⡮⡽⣳⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣿⡻⣙⠽⠋⠀⠀⠀⠀
-        ⠀⠀⠀⠀⠀⠀⠉⠛⠚⠬⠯⠷⠶⣒⣠⠤⢤⣤⣒⡶⠶⠿⠽⠚⠒⠉⠀⠀⠀⠀⠀⠀⠀
-      </pre>
+        <img src="images/photo_1.jpg" alt="No image found">
+        <img src="images/photo_2.jpeg" alt="No image found">
+        <img src="images/photo_3.webp" alt="No image found">
+      </section>
+      <section class="events-timetable">
+        <h2>Расписание встреч</h2>
+        <div class="timetable">
+          <div class="timetable__header">
+            <div>Дата</div>
+            <div>Место встречи</div>
+            <div>Тема</div>
+          </div>
+
+          <div class="timetable__row">
+            <div>11.02.2024</div>
+            <div>Кронверский, 49</div>
+            <div>Обсуждения альбома "The College Dropout"</div>
+          </div>
+
+          <div class="timetable__row">
+            <div>20.10.2023</div>
+            <div>Кронверский, 49</div>
+            <div>Знакомство членов клуба</div>
+          </div>
+        </div>
       </section>
     </div>
-    <aside>
+    <div class="news">
       <h2>Новости клуба</h2>
       <article>
         <h3>
@@ -81,14 +109,9 @@
 
         <time datetime="2024-09-10T09:54">10:54 утра</time>
       </article>
-      <article>
-        <h4>
-
-        </h4>
-      </article>
-    </aside>
+    </div>
   </main>
-  <footer>
+  <footer class="footer">
     <ul>
       <li>Tg: https://t.me/kanye_fan_group_itmo</li>
       <li>Vk: https://vk.com/kanye_fan_group_itmo</li>

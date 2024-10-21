@@ -1,0 +1,17 @@
+.gallery {
+    display: grid;
+    gap: 1em;
+}
+
+.gallery img {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin-bottom: 0;
+}

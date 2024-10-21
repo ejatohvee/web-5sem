@@ -1,0 +1,12 @@
+.timetable__header {
+    display: contents;
+    font-weight: bold;
+    background-color: #4b79a1;
+    color: white;
+    padding: 10px;
+}
+
+.timetable__header div {
+
+    text-align: center;
+}
