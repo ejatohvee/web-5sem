@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="ИТМО, YZY CLUB, Встречи клуба">
+  <meta name="description" content="Встречи клуба фанатов KANYE WEST в ИТМО">
+  <title>Kanye club meetings</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="page/page.css" rel="stylesheet">
+  <link href="main/main.css" rel="stylesheet">
+  <link href="header/header.css" rel="stylesheet">
+  <link href="header/group/header__group.css" rel="stylesheet">
+  <link href="logo/logo.css" rel="stylesheet">
+  <link href="news/news.css" rel="stylesheet">
+  <link href="about/content/about__content.css" rel="stylesheet">
+  <link href="about/about.css" rel="stylesheet">
+  <link href="gallery/gallery.css" rel="stylesheet">
+  <link href="footer/footer.css" rel="stylesheet">
+  <link href="menu/menu.css" rel="stylesheet">
+  <link href="timetable/timetable.css" rel="stylesheet">
+  <link href="timetable/header/timetable__header.css" rel="stylesheet">
+  <link href="timetable/row/timetable__row.css" rel="stylesheet">
+  <link href="events-timetable/events-timetable.css" rel="stylesheet">
+  <link href="menu/link/menu__link.css" rel="stylesheet">
+  <link href="meeting/form/meeting__form.css" rel="stylesheet">
+  <link href="meeting/card/meeting__card.css" rel="stylesheet">
+  <script src="js/script1.js" defer></script>
+  <script src="js/script2.js"></script>
+
+</head>
+<body class="page">
+  <header class="header">
+    <div class="logo logo--header">
+      <img src="images/site_logo.jpg" alt="No picture found">
+    </div>
+    <div class="header__group">
+      <h1>YZY CLUB</h1>
+      <nav class="menu">
+        <a href="index.html">Главная страница</a>
+        <a href="news.html">Новости</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="meetings.html">Встречи</a>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div>
+      <section>
+        <form class="meeting-form" id="meetingForm">
+          <h2>Предложение темы новой встречи</h2>
+          <label>
+            Название встречи
+            <input type="text" id="meetingName" placeholder="Введите название встречи" required>
+          </label>
+          <label>
+            Описание встречи
+            <textarea placeholder="Введите описание встречи" id="meetingDescription" required></textarea>
+          </label>
+          <button type="submit">Предложить тему</button>
+        </form>
+      </section>
+      <section id="meetingsContainer">
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <ul>
+      <li>Tg: https://t.me/kanye_fan_group_itmo</li>
+      <li>Vk: https://vk.com/kanye_fan_group_itmo</li>
+    </ul>
+  </footer>
+</body>
+</html>

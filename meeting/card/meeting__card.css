@@ -1,0 +1,16 @@
+.meeting__card {
+    padding: 10px;
+    background-color: #3F4239;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.meeting__card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.meeting__card p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}

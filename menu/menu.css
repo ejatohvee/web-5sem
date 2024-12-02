@@ -1,3 +1,8 @@
 .menu a {
     padding: 0 1.5em;
+    color: #B29D80;
+}
+
+.menu a:hover {
+    color: #EAC99E;
 }
