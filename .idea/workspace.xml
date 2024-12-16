@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1824695d-b19d-4c42-909a-2fdb29376448" name="Changes" comment="[lab-2] fix">
+    <list default="true" id="1824695d-b19d-4c42-909a-2fdb29376448" name="Changes" comment="[lab-4,5]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -79,7 +81,8 @@
       <workItem from="1727101754102" duration="26000" />
       <workItem from="1729441186830" duration="1930000" />
       <workItem from="1729451053637" duration="22094000" />
-      <workItem from="1733134535897" duration="10577000" />
+      <workItem from="1733134535897" duration="13049000" />
+      <workItem from="1734346194128" duration="8656000" />
     </task>
     <task id="LOCAL-00001" summary="[lab-1] implemented lab 1">
       <created>1727101328163</created>
@@ -144,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729524014180</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[lab-4,5]">
+      <created>1733150344256</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733150344256</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +176,7 @@
     <MESSAGE value="[lab-1] fix" />
     <MESSAGE value="[lab-2]" />
     <MESSAGE value="[lab-2] fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lab-2] fix" />
+    <MESSAGE value="[lab-4,5]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lab-4,5]" />
   </component>
 </project>

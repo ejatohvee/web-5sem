@@ -18,6 +18,7 @@
   <link href="about/content/about__content.css" rel="stylesheet">
   <link href="about/about.css" rel="stylesheet">
   <link href="gallery/gallery.css" rel="stylesheet">
+  <link href="gallery/slider/gallery__slider.css" rel="stylesheet">
   <link href="footer/footer.css" rel="stylesheet">
   <link href="menu/menu.css" rel="stylesheet">
   <link href="timetable/timetable.css" rel="stylesheet">
@@ -27,6 +28,13 @@
   <link href="menu/link/menu__link.css" rel="stylesheet">
   <script src="js/script1.js" defer></script>
 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+  <script src="js/slick.js"></script>
 </head>
 <body class="page">
   <header class="header">
@@ -66,9 +74,11 @@
       </section>
       <section class="gallery">
         <h2>Фотогалерея</h2>
-        <img src="images/photo_1.jpg" alt="No image found">
-        <img src="images/photo_2.jpeg" alt="No image found">
-        <img src="images/photo_3.webp" alt="No image found">
+        <div class="gallery__slider">
+          <img src="images/photo_1.jpg" alt="No image found">
+          <img src="images/photo_2.jpeg" alt="No image found">
+          <img src="images/photo_3.webp" alt="No image found">
+        </div>
       </section>
       <section class="events-timetable">
         <h2>Расписание встреч</h2>

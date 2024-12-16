@@ -1,0 +1,11 @@
+.gallery__slider {
+    max-width: 800px; /* Ширина слайдера */
+    margin: 0 auto;   /* Центрирование */
+}
+
+.gallery__slider img {
+    width: 100%; /* Подгоняет ширину под слайдер */
+    height: auto; /* Сохраняет пропорции */
+    object-fit: cover; /* Если нужно обрезать лишнее */
+    border-radius: 10px; /* Закругленные углы для эстетики */
+}

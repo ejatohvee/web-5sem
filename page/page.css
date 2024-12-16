@@ -6,6 +6,7 @@
     margin: 0 1em 120px;
 
     background: linear-gradient(to bottom, #222625, #3F4239, #B29D80);
+    background-size: 400vw 400vh;
 }
 
 h1 {

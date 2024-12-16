@@ -1,0 +1,25 @@
+.news__comments {
+    margin: 1.5em auto;
+    padding: 15px;
+    border: 1px solid #222625;
+    border-radius: 8px;
+    background-color: #3F4239;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+}
+
+.news__comments h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #EAC99E;
+}
+
+.news__comments p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+}
+
+.news__comments article {
+    display: block;
+}
